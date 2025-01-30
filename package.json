@@ -1,8 +1,8 @@
 {
   "name": "khayrullo-comment-remover",
   "displayName": "comment-remover",
-  "description": "\"A VS Code extension to remove comments from code.\"",
-  "version": "0.0.1",
+  "description": "A VS Code extension to remove comments from code.",
+  "version": "1.0.3",
   "publisher": "KhayrulloIsomiddinov",
   "engines": {
     "vscode": "^1.96.0"
@@ -26,6 +26,7 @@
     "type": "git",
     "url": "https://github.com/khayrullo-isomiddinov/comment-remover-vscode-ext"
   },
+  "icon": "assets/vscodelogo.jpg",
   "scripts": {
     "vscode:prepublish": "npm run package",
     "publisher": "KhayrulloIsomiddinov",

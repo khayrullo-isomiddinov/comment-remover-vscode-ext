@@ -19,5 +19,12 @@
 - Support for more languages.
 - Automatic comment removal on file save.
 
+## Support
+
+If you like this extension, consider buying me a coffee! 😊
+
+[![Buy Me a Coffee](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee&logoColor=white&style=for-the-badge)](https://www.buymeacoffee.com/harry281203)
+
+
 ## 👨‍💻 Author
 **Khayrullo Isomiddinov** - Follow me on [GitHub](https://github.com/khayrullo-isomiddinov).

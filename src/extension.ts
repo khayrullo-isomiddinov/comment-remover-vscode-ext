@@ -1,10 +1,10 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-    let disposable = vscode.commands.registerCommand('comment-remover.removeComments', () => {
+    const removeCommentsDisposable = vscode.commands.registerCommand('comment-remover.removeComments', () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
-            vscode.window.showErrorMessage('No active editor found');
+            vscode.window.showErrorMessage('No active editor found.');
             return;
         }
 
@@ -22,9 +22,11 @@ export function activate(context: vscode.ExtensionContext) {
             );
             editBuilder.replace(fullRange, cleanedText);
         });
+
+        vscode.window.showInformationMessage('Comments removed successfully!');
     });
 
-    context.subscriptions.push(disposable);
+    context.subscriptions.push(removeCommentsDisposable);
 }
 
 function removeComments(code: string, languageId: string): string {
@@ -43,3 +45,5 @@ function removeComments(code: string, languageId: string): string {
 }
 
 export function deactivate() {}
+
+/*asasasas*/
