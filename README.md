@@ -8,7 +8,7 @@
 ## Installation
 1. Open VS Code.
 2. Go to **Extensions** (`Ctrl+Shift+X`).
-3. Search for **Comment Remover** and install.
+3. Search for **Comment Remover** (Khayrullo Isomiddinov) and install.
 
 ## Usage
 1. Open any file with comments.
